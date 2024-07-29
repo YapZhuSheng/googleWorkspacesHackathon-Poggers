@@ -10,4 +10,8 @@
  Project Description
  Google Docs Add-on that extract the active document as a PDF, encrypts it with a password using an Python Flask App as API encryption service, returns it to users' Google Drive.
 
-App Script Project Link in case unable to open using clasp: https://script.google.com/d/1H5d3l5U1fkx9L2spnuIovu-c-eSr2vEySqHP2bnRpJZZK0sPEDz4jUQp/edit?usp=sharing 
+App Script Project Link in case unable to open using clasp: 
+https://script.google.com/d/1H5d3l5U1fkx9L2spnuIovu-c-eSr2vEySqHP2bnRpJZZK0sPEDz4jUQp/edit?usp=sharing 
+
+Script ID for App Script Project to use with clasp:
+1H5d3l5U1fkx9L2spnuIovu-c-eSr2vEySqHP2bnRpJZZK0sPEDz4jUQp
