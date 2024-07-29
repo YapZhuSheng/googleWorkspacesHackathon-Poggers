@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File and Password Input</title>
+  <style>
+    body {
+      background-color: #ff9494; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .input-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    input {
+      width: 90%; 
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="button"] { 
+      background-color: #4CAF50; 
+      color: white;
+      width: auto;
+      padding: 12px 20px; 
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    p{
+      font-family:sans-serif;
+      font-size:15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-container">
+    <form>
+      <p>Set a password to encrypt the current document.</p>
+      <label for="password">Password:</label>
+      <input type="password" id="userPassword" required>
+      <input type="button" value="Encrypt" onclick="submitForm()">
+    </form>
+  </div>
+  <script type="text/javascript">
+    function submitForm(){
+      if(document.getElementById('userPassword').value === ""){
+        window.alert("Password cannot be empty")
+        return;
+      }
+      else{
+          google.script.run.exportPdf(document.getElementById('userPassword').value);
+      }
+    }
+  </script>
+</body>
+</html>
