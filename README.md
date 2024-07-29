@@ -15,3 +15,5 @@ https://script.google.com/d/1H5d3l5U1fkx9L2spnuIovu-c-eSr2vEySqHP2bnRpJZZK0sPEDz
 
 Script ID for App Script Project to use with clasp:
 1H5d3l5U1fkx9L2spnuIovu-c-eSr2vEySqHP2bnRpJZZK0sPEDz4jUQp
+
+Pitch Deck Video Link: https://youtu.be/RQLMKwfV0h4
